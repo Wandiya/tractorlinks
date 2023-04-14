@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../images/trac..jpg);
+    background-repeat: repeat;
+    font-family: 'Poppins';
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    height: 700px;
+    font-family: 'Poppins';
+}
+
+.register {
+    background: #ffff;
+    border-radius: 20px;
+    display: flex
+}
+
+.left-box {
+    border-radius: 20px;
+    padding: 50px;
+    background: #BFFFBF;
+    border: 8px;
+}
+
+.aside {
+    background-color: #fff;
+    border-radius: 20px;
+    width: 30rem;
+    margin-left: 5px;
+}
+
+.h3_tag {
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #008000;
+}
+
+.h5_tag {
+    text-align: left;
+    padding-left: 2%;
+    line-height: 25px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 5%;
+    color: #008000;
+}
+
+#login {
+    text-align: left;
+    padding-block-start: 4rem;
+    margin-left: 2rem;
+}
+
+label {
+    font-size: 18px;
+    color: #00000080;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+    top: 463px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin-bottom: 3%;
+}
+
+#password {
+    width: 400px;
+    height: 40px;
+    left: 300;
+    top: 463px;
+    border-radius: 15px;
+    background: white;
+}
+
+.login_btn {
+    text-align: center;
+    align-content: center;
+    padding: 30px;
+}
+
+#login_btn {
+    background: #fff;
+    border-radius: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 200px;
+    height: 40px;
+}
+
+input[type=password] {
+    background: #fff;
+}
+
+#or {
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-bottom: 3%;
+}
+
+.icon_google {
+    display: inline-flex;
+    width: 186px;
+    height: 52px;
+    border-radius: 5px;
+    padding: 10px;
+    background: #BfffBf;
+}
+
+.icon_facebook {
+    display: inline-flex;
+    width: 186px;
+    height: 52px;
+    border-radius: 5px;
+    padding: 10px;
+    background: #BfffBf;
+    margin-left: 10px;
+    text-align: center;
+}
+
+span a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.signup {
+    padding-top: 20px;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon__facebook .link-facebook {
+    text-decoration: none;
+    color: black;
+}
+
+.icon__google .link-google {
+    text-decoration: none;
+    color: black;
+}
+
+.icon_facebook .link-facebook:hover {
+    color: #008000
+}
+
+.icon_google .link-google:hover {
+    color: #008000;
+}
+
+.links #login {
+    margin-right: px;
+}
+
+#login img {
+    overflow: hidden;
+    margin-top: 2%;
+}
