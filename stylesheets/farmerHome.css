@@ -45,7 +45,7 @@ ul li a {
     color: #000000;
     font-weight: 400;
     font-family: Roboto;
-    transition: 0.4s ease-in-out;
+    /* transition: 0.4s ease-in-out; */
 }
 
 ul li a:hover {

@@ -17,6 +17,18 @@ nav {
     padding: 1% 4%;
 }
 
+input[type=search] {
+    width: 260px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background-color: whitesmoke;
+    background-image: url(../images/search_icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    padding: 5px 10px 6px 30px;
+    outline: none;
+}
+
 .first img {
     padding-inline: 2px;
 }
@@ -24,7 +36,7 @@ nav {
 button {
     background: #40C54B;
     width: 80px;
-    height: 30px;
+    height: 40px;
     border: none;
 }
 
